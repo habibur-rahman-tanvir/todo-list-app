@@ -7,3 +7,26 @@ html {
     font-size: 62.5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+:root {
+    --bg-color: #f9fafb;
+    --card-bg: #ffffff;
+    --text-color: #111827;
+    --secondary-text: #6b7280;
+    --accent-color: #4f46e5;
+    --success-color: #10b981;
+    --danger-color: #ef4444;
+}
+[data-theme="dark"] {
+    --bg-color: #1e293b;
+    --card-bg: #334155;
+    --text-color: #f8fafc;
+    --secondary-text: #cbd5e1;
+    --accent-color: #6366f1;
+    --success-color: #34d399;
+    --danger-color: #f87171;
+}
+
+body {
+    background-color: var(--bg-color);
+}
