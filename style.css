@@ -36,6 +36,10 @@ body {
     align-items: center;
     overflow: hidden;
 }
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
 
 .container {
     background-color: var(--bg-color);
@@ -56,7 +60,15 @@ body {
 }
 .nav > a {
     color: inherit;
-    flex-grow: 1;
-    /* background-color: var(--accent-color); */
     text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 20%;
+    padding: 1rem 0;
+    font-weight: 500;
+    border-right: 1px solid rgba(128, 128, 128, 0.1);
+}
+.active {
+    background-color: var(--danger-color);
 }
