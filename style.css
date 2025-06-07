@@ -52,7 +52,11 @@ body {
     position: absolute;
     width: 100%;
     bottom: 0;
+    display: flex;
 }
 .nav > a {
     color: inherit;
+    flex-grow: 1;
+    /* background-color: var(--accent-color); */
+    text-align: center;
 }
