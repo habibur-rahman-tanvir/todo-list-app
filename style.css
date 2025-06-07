@@ -28,5 +28,17 @@ html {
 }
 
 body {
+    background-color: burlywood;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
     background-color: var(--bg-color);
+    max-width: 768px;
+    width: 100%;
+    min-height: 100vh;
 }
